@@ -5,6 +5,19 @@ Most of the patches in this repository are created by me from ground up or i was
 
 ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 
+## How to download
+1. Click on file with patch you want to download (for example SystemTime.wire)
+2. Navigate to top right corner of screen and click on download button
+3. Find your downloaded file (probably in Downloads folder)
+4. First way to import:
+    1. Open Resolume Arena and drag-and-drop file in there.
+    2. Click "Install" in popup window.
+5. Second way to import:
+    1. Navigate to folder: C:\Users\user\Documents\Resolume Wire\Patches
+    2. Create new folder with name of patch
+    3. Move your downloaded file there
+6. Find installed patch in "Sources" (if you installed patch with type "Source") or "Effects"
+
 ## Table of content
 - [SystemTime](#systemtime)
 
@@ -20,10 +33,14 @@ Patch info:
 * Texture Bit Depth: 8bpc
 
 Screenshots:
-![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/img/SystemTime/Arena-Properties.png?raw=true)
-![Preview-1](https://github.com/YaNesyTortiK/WirePatches/img/SystemTime/Preview-1.png?raw=true)
-![Preview-2](https://github.com/YaNesyTortiK/WirePatches/img/SystemTime/Preview-2.png?raw=true)
-![Preview-3](https://github.com/YaNesyTortiK/WirePatches/img/SystemTime/Preview-3.png?raw=true)
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Arena-Properties.png?raw=true)
+
+![Preview-1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-1.png?raw=true)
+
+![Preview-2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-2.png?raw=true)
+
+![Preview-3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-3.png?raw=true)
 
 # Contact info
 Email: [ya.nesy.tortik.email@gmail.com](mailto:ya.nesy.tortik.email@gmail.com)
