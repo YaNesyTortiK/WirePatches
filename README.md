@@ -6,7 +6,7 @@ Most of the patches in this repository are created by me from ground up or i was
 ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 
 ## How to download
-1. Click on file with patch you want to download (for example SystemTime.wire)
+1. Click on file with patch you want to download (for example SystemTime.wired)
 2. Navigate to top right corner of screen and click on download button
 3. Find your downloaded file (probably in Downloads folder)
 4. First way to import:
