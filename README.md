@@ -20,7 +20,8 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 
 ## Table of content
 - [SystemTime](#systemtime)
-
+- [Timer](#timer)
+- [StopWatch](#stopwatch)
 
 # Patches Preview
 
@@ -41,6 +42,39 @@ Screenshots:
 ![Preview-2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-2.png?raw=true)
 
 ![Preview-3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-3.png?raw=true)
+
+## Timer
+This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds.
+
+Patch info:
+* Type: Source
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+
+Screenshots:
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Arena-Properties.png?raw=true)
+
+![Preview-1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Preview-1.png?raw=true)
+
+![Preview-2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Preview-2.png?raw=true)
+
+## StopWatch
+This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text.
+
+Patch info:
+* Type: Source
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+
+Screenshots:
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/StopWatch/Arena-Properties.png?raw=true)
+
+![Preview-1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/StopWatch/Preview-1.png?raw=true)
+
+![Preview-2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/StopWatch/Preview-2.png?raw=true)
+
 
 # Contact info
 Email: [ya.nesy.tortik.email@gmail.com](mailto:ya.nesy.tortik.email@gmail.com)
