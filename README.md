@@ -19,14 +19,16 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 6. Find installed patch in "Sources" (if you installed patch with type "Source") or "Effects"
 
 ## Table of content
-- [SystemTime](#systemtime)
-- [Timer](#timer)
-- [StopWatch](#stopwatch)
+- [SystemTime](#systemtime)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
+- [Timer](#timer)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
+- [StopWatch](#stopwatch)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
+- [Randomizer](#randomizer)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
 
 # Patches Preview
 
 ## SystemTime
 This patch is providing a digital clock with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text.
+[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
 
 Patch info:
 * Type: Source
@@ -45,6 +47,7 @@ Screenshots:
 
 ## Timer
 This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate.
+[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
 
 Patch info:
 * Type: Source
@@ -61,6 +64,7 @@ Screenshots:
 
 ## StopWatch
 This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text, change refresh rate.
+[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
 
 Patch info:
 * Type: Source
@@ -74,6 +78,21 @@ Screenshots:
 ![Preview-1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/StopWatch/Preview-1.png?raw=true)
 
 ![Preview-2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/StopWatch/Preview-2.png?raw=true)
+
+## Randomizer
+Generates random numbers in range ["Min Number", "Max Number"]. If "Generating Time" is set more than 0, then every "Swapping Speed" hertz new random number will appear for "Generating Time" seconds and then stops at some random number. "Reset" will set value on screen to "Min Number".
+[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
+
+Patch info:
+* Type: Source
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Randomizer/Arena-Properties.png?raw=true)
+
+![Preview-1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Randomizer/Preview-1.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Randomizer/Preview-Gif.gif?raw=true)
 
 
 # Contact info
