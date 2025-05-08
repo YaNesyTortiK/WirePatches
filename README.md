@@ -119,6 +119,7 @@ Patch info:
 * Texture Bit Depth: 8bpc
 
 Screenshots:
+
 ![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Arena-Properties.png?raw=true)
 
 ![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Preview-Gif.gif?raw=true)
