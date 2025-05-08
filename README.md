@@ -19,16 +19,17 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 6. Find installed patch in "Sources" (if you installed patch with type "Source") or "Effects"
 
 ## Table of content
-- [SystemTime](#systemtime)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
-- [Timer](#timer)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
-- [StopWatch](#stopwatch)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
-- [Randomizer](#randomizer)   [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
+- [SystemTime](#systemtime) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
+- [Timer](#timer) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
+- [StopWatch](#stopwatch) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
+- [Randomizer](#randomizer) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
+- [CreateScreensaver](#createscreensaver) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
 
 # Patches Preview
 
 ## SystemTime
 This patch is providing a digital clock with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text.
-[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
 
 Patch info:
 * Type: Source
@@ -47,7 +48,7 @@ Screenshots:
 
 ## Timer
 This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate.
-[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
 
 Patch info:
 * Type: Source
@@ -64,7 +65,7 @@ Screenshots:
 
 ## StopWatch
 This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text, change refresh rate.
-[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
 
 Patch info:
 * Type: Source
@@ -81,7 +82,7 @@ Screenshots:
 
 ## Randomizer
 Generates random numbers in range ["Min Number", "Max Number"]. If "Generating Time" is set more than 0, then every "Swapping Speed" hertz new random number will appear for "Generating Time" seconds and then stops at some random number. "Reset" will set value on screen to "Min Number".
-[DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
 
 Patch info:
 * Type: Source
@@ -94,6 +95,33 @@ Patch info:
 
 ![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Randomizer/Preview-Gif.gif?raw=true)
 
+## CreateScreensaver
+Effect that emulates legendary DVD logo bouncing on screen with any source.
+Instruction:
+0. Initial parameters:
+    - Horizontal Speed = 0.1 hz
+    - Vertical Speed = 0.1 hz
+    - Center X = 960 pz
+    - Center Y = 540 px
+    - Width = 500
+    - Height = 500
+    - Animate = False
+    - Crop Result = False
+    - Show Borders = True
+1. Change parameters Center X, Center Y, Width and Height in such way, that region which you want to bounce is located inside red rectangle.
+2. if you want to crop other parts of input texture set parameter "Crop Result" to True.
+3. To start animation set parameter "Animate" to True and set "Show Borders" to False to disable red rectangle.
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
+
+Patch info:
+* Type: Effect
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+
+Screenshots:
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Arena-Properties.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Preview-Gif.gif?raw=true)
 
 # Contact info
 Email: [ya.nesy.tortik.email@gmail.com](mailto:ya.nesy.tortik.email@gmail.com)
