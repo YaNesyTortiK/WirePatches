@@ -102,7 +102,9 @@ Patch info:
 
 ## CreateScreensaver
 Effect that emulates legendary DVD logo bouncing on screen with any source.
+
 Instruction:
+
 0. Initial parameters:
     - Horizontal Speed = 0.1 hz
     - Vertical Speed = 0.1 hz
@@ -132,7 +134,9 @@ Screenshots:
 
 ## [GAME] Pong
 Game Pong (re)created with wire just for fun.
+
 Instruction:
+
 0. Initial parameters:
     - Pause - True
     - Player1 - 0.5
