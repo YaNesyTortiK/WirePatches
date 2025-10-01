@@ -24,11 +24,13 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 - [StopWatch](#stopwatch) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
 - [Randomizer](#randomizer) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
 - [CreateScreensaver](#createscreensaver) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
+- [Game Pong](#game-pong) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
 # Patches Preview
 
 ## SystemTime
 This patch is providing a digital clock with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text.
+
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
 
 Patch info:
@@ -48,6 +50,7 @@ Screenshots:
 
 ## Timer
 This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate.
+
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
 
 Patch info:
@@ -65,6 +68,7 @@ Screenshots:
 
 ## StopWatch
 This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text, change refresh rate.
+
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
 
 Patch info:
@@ -82,6 +86,7 @@ Screenshots:
 
 ## Randomizer
 Generates random numbers in range ["Min Number", "Max Number"]. If "Generating Time" is set more than 0, then every "Swapping Speed" hertz new random number will appear for "Generating Time" seconds and then stops at some random number. "Reset" will set value on screen to "Min Number".
+
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
 
 Patch info:
@@ -111,6 +116,7 @@ Instruction:
 1. Change parameters Center X, Center Y, Width and Height in such way, that region which you want to bounce is located inside red rectangle.
 2. if you want to crop other parts of input texture set parameter "Crop Result" to True.
 3. To start animation set parameter "Animate" to True and set "Show Borders" to False to disable red rectangle.
+
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
 
 Patch info:
@@ -123,6 +129,34 @@ Screenshots:
 ![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Arena-Properties.png?raw=true)
 
 ![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Preview-Gif.gif?raw=true)
+
+## [GAME] Pong
+Game Pong (re)created with wire just for fun.
+Instruction:
+0. Initial parameters:
+    - Pause - True
+    - Player1 - 0.5
+    - Player2 - 0.5
+    - Center Y = 540 px
+    - Ball speed - 30
+1. Press Reset Game trigger (or else score will not count first ball).
+2. To start game - set Pause to false and ball will start moving.
+3. To control players change value in fields Player1 and Player2 (0 - bottom of the screen, 1 - top of the screen).
+4. When ball passes one of the players and touches left or right edge of the screen, point is added to opposite player and ball spawns in center and starts moving immediately.
+5. To reset score press Reset Game trigger. Both scores will be set to 0 and ball will spawn in center.
+
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
+
+Patch info:
+* Type: Source
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+
+Screenshots:
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Pong/Arena-Properties.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Pong/Preview-Gif.gif?raw=true)
 
 # Contact info
 Email: [ya.nesy.tortik.email@gmail.com](mailto:ya.nesy.tortik.email@gmail.com)
