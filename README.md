@@ -49,7 +49,7 @@ Screenshots:
 ![Preview-3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-3.png?raw=true)
 
 ## Timer
-This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate.
+This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate. Timer can go below zero (minus sign can be toggled off).
 
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
 
@@ -65,6 +65,8 @@ Screenshots:
 ![Preview-1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Preview-1.png?raw=true)
 
 ![Preview-2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Preview-2.png?raw=true)
+
+![Preview-3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Preview-3.png?raw=true)
 
 ## StopWatch
 This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text, change refresh rate.
