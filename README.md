@@ -37,6 +37,7 @@ Patch info:
 * Type: Source
 * Resolution: 1920x1080 (1080p, Full HD)
 * Texture Bit Depth: 8bpc
+* Minimal Version: 7.21.0
 
 Screenshots:
 
@@ -57,6 +58,7 @@ Patch info:
 * Type: Source
 * Resolution: 1920x1080 (1080p, Full HD)
 * Texture Bit Depth: 8bpc
+* Minimal version: 7.21.0
 
 Screenshots:
 
@@ -77,6 +79,7 @@ Patch info:
 * Type: Source
 * Resolution: 1920x1080 (1080p, Full HD)
 * Texture Bit Depth: 8bpc
+* Minimal Version: 7.21.0
 
 Screenshots:
 
@@ -95,6 +98,7 @@ Patch info:
 * Type: Source
 * Resolution: 1920x1080 (1080p, Full HD)
 * Texture Bit Depth: 8bpc
+* Minimal Version: 7.21.0
 
 ![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Randomizer/Arena-Properties.png?raw=true)
 
@@ -127,6 +131,7 @@ Patch info:
 * Type: Effect
 * Resolution: 1920x1080 (1080p, Full HD)
 * Texture Bit Depth: 8bpc
+* Minimal Version: 7.21.0
 
 Screenshots:
 
@@ -157,6 +162,7 @@ Patch info:
 * Type: Source
 * Resolution: 1920x1080 (1080p, Full HD)
 * Texture Bit Depth: 8bpc
+* Minimal Version: 7.23.0
 
 Screenshots:
 
