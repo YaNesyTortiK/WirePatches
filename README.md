@@ -71,7 +71,7 @@ Screenshots:
 ![Preview-3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Timer/Preview-3.png?raw=true)
 
 ## StopWatch
-This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text, change refresh rate.
+This patch is providing a digital stopwatch with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text, change refresh rate and toggle between bold and regular font.
 
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
 
