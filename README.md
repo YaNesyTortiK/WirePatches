@@ -50,7 +50,7 @@ Screenshots:
 ![Preview-3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/SystemTime/Preview-3.png?raw=true)
 
 ## Timer
-This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate. Timer can go below zero (minus sign can be toggled off).
+This patch is providing a digital timer with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text. You also can change color for text when timer will stop on 0 seconds and change refresh rate. Timer can go below zero (minus sign can be toggled off). You cantoggle between bold and regular fonts.
 
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Timer.wired)
 
