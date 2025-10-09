@@ -29,7 +29,7 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 # Patches Preview
 
 ## SystemTime
-This patch is providing a digital clock with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color and scale text.
+This patch is providing a digital clock with hours, minutes, seconds and milliseconds with ability to disable any of these individually. Also you can change text color, scale text and switch between bold and regular font.
 
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/SystemTime.wired)
 
