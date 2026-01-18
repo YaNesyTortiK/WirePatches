@@ -24,6 +24,7 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 - [StopWatch](#stopwatch) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/StopWatch.wired)
 - [Randomizer](#randomizer) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
 - [CreateScreensaver](#createscreensaver) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
+- [Footage Looper](#footage-looper) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Footage-Looper.wired)
 - [Game Pong](#game-pong) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
 # Patches Preview
@@ -138,6 +139,50 @@ Screenshots:
 ![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Arena-Properties.png?raw=true)
 
 ![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/CreateScreensaver/Preview-Gif.gif?raw=true)
+
+## Footage Looper
+
+Wire patch to loop footages with transitions.
+
+Instruction:
+1. Select (browse or drag and drop) a file.
+2. Choose starting position (in seconds) and ending position (in seconds) (starting and end position is set as 0 by default).
+    - If end position is set as zero, then end position will be set at the end of the file
+    - If the end position is greater than zero, clip will end at this position (seconds are counted from start of original file, not from starting position)
+    - If the end position is less than zero, clip will end this amount of seconds before original clip ends.
+3. Choose transition duration (1s by default).
+    - If set as 0, cut transition is applied.
+4. Choose transition mode (Alpha by default).
+    - Available modes: Add, Alpha, BlackAndWhite, Burn, Cut, Darken, Difference, Difference I, Displace, Dodge, Hard Light, Lighten, Luma Is Alpha, Luma Key, Luma Key I, RGB, To Black, To White, Multiply, Overlay, Screen, Soft Light
+5. Set Fit Type (None by default):
+    - None - original resolution of clip.
+    - Fit - clip will be resized to match the least one of the sizes (width or height).
+    - Fill - clip will be resized to match the greater one of the sizes (width or height) and will result in crop.
+    - Stretch - clip will be stretched to match both sizes (width and height) and will change aspect ratio of clip.
+6. Use Video Control to start clip.
+    - Play - Starts or unpauses clip.
+    - Pause - Pauses clip
+    - Stop - Stops clip and removes it from screen (empty source)
+    - Restart - Starts clip as starting point.
+
+Important: 
+- Clip will not restart from start when it becomes active, once Play or Restart button is pressed, clip will loop indefinitely.
+- Playing clip in reverse is unavailable.
+
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Footage-Looper.wired)
+
+Patch info:
+* Type: Source
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+* Minimal Version: 7.23.0
+
+Screenshots:
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Footage-Looper/Arena-Properties.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Footage-Looper/Preview-Gif.gif?raw=true)
+
 
 ## [GAME] Pong
 Game Pong (re)created with wire just for fun.
