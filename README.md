@@ -25,6 +25,7 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE
 - [Randomizer](#randomizer) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Randomizer.wired)
 - [CreateScreensaver](#createscreensaver) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
 - [Footage Looper](#footage-looper) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Footage-Looper.wired)
+- [Lucky Wheel (Random Wheel)](#lucky-wheel-random-wheel) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/LuckyWheel.wired)
 - [Game Pong](#game-pong) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
 # Patches Preview
@@ -182,6 +183,45 @@ Screenshots:
 ![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Footage-Looper/Arena-Properties.png?raw=true)
 
 ![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Footage-Looper/Preview-Gif.gif?raw=true)
+
+## Lucky Wheel (Random Wheel)
+
+Dynamically configurable random wheel with option to set text on pieces.
+
+Instruction:
+1. Enter number of desired elements to "Number field"
+2. If needed, input same amount of lines into "Strings" field
+3. Check that "Render whl text" is enabled if text is needed and values are entered
+4. If needed change "HUE range" to desirable color palette
+5. In spin settings:
+    1. Acceleration duration - amount of seconds wheel will accelerate
+    2. RPS - speed of rotation
+    3. Spin duration - duration of spin without acceleration and deceleration phases
+    4. Slowdown duration - amount of second to slowdown
+6. If needed, check "Show winner text" checkbox in "Winner text" group to show or not winner after wheel is stopped.
+7. Click "SPIN" trigger to start spin.
+
+IMPORTANT: Each new element will inevitably require more processing power and text render is really costly. You can keep strings to show the winner and only disable "Render whl text" to decrease load.
+
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/LuckyWheel.wired)
+
+Patch info:
+* Type: Source
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+* Minimal Version: 7.23.0
+
+Screenshots:
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Arena-Properties.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Preview-Gif.gif?raw=true)
+
+![Preview1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Preview1.png?raw=true)
+
+![Preview2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Preview2.png?raw=true)
+
+![Preview3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Preview3.png?raw=true)
 
 
 ## [GAME] Pong
