@@ -5,7 +5,7 @@ Most of the patches in this repository are created by me from ground up or i was
 
 ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE AND PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND
 
-[MIT License](https://github.com/YaNesyTortiK/WirePatches/blob/main/README.md)
+[MIT License](https://github.com/YaNesyTortiK/WirePatches/blob/main/LICENSE)
 
 ## How to download
 1. Click on file with patch you want to download (for example SystemTime.wired)
