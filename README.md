@@ -28,6 +28,7 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE AND PROVIDED â€œAS ISâ€
 - [CreateScreensaver](#createscreensaver) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/CreateScreensaver.wired)
 - [Footage Looper](#footage-looper) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Footage-Looper.wired)
 - [Lucky Wheel (Random Wheel)](#lucky-wheel-random-wheel) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/LuckyWheel.wired)
+- [Modifiable Test Card](#modifiable-test-card) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/ModifiableTestCard.wired)
 - [Game Pong](#game-pong) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
 # Patches Preview
@@ -224,6 +225,82 @@ Screenshots:
 ![Preview2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Preview2.png?raw=true)
 
 ![Preview3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/LuckyWheel/Preview3.png?raw=true)
+
+## Modifiable Test Card
+
+Recreation of Resolume's Test Card source with more control of elements, ability to add custom logo (static image and video files) and open sourced so you can add and edit elements by yourself.
+
+Source settings:
+* Background
+    * Show BG - show checkerboard on background (enabled by default)
+    * BG color 1 - first color of checkerboard (#666666FF by default, identical to resolume's default)
+    * BG color 2 - second color of checkerboard (#808080FF by default, identical to resolume's default)
+* Wireframe
+    * Show wireframe - show wireframe on edges of rectangles on checkerboard (enabled by default)
+    * Wireframe color - color of wireframe (black by default)
+    * Wireframe thickness - thickness of lines (1 by default) should be adjusted manually for resolutions that greatly differ from Full HD
+* Tapes
+    * Show RGB Tape - show rgb tape on the left side of screen with full hue range (enabled by default)
+    * Show BW Tape - show black and white tape on the right side of screen ranging from black to white (enabled by default)
+    * Tape Quant - number of data points taken to create gradient on tapes (12 by default)
+    * RGB Tape x - shift rgb tape on X axis (from -1 to 1, 0 by default)
+    * RGB Tape y - shift rgb tape on Y axis (from -1 to 1, 0 by default)
+    * BW Tape x - shift black and white tape on X axis (from -1 to 1, 0 by default)
+    * BW Tape y - shift black and white tape on Y axis (from -1 to 1, 0 by default)
+    * Tapes width cover - rough percentage of width of screen covered by singular tape, automatically adjust for background grid (from 0 to 1, 0.15 by default)
+    * Tapes height cover - rough percentage of height of screen covered by singular tape, automatically adjust for background grid (from 0 to 1, 0.8 by default)
+    * Tapes rect shift - shift tapes from sides by number of rectangles on background (3 by default)
+* Top wireframe
+    * Show top wireframe - show diagonal. center vertical and horizontal, and side lines (enabled by default)
+    * Top wireframe thickness - thickness of lines (from 0, to 0.05, 0.0036 by default) should be adjusted manually for resolutions that greatly differ from Full HD
+    * Top wf color - color of top wireframe (white by default)
+* Logo
+    * Show Logo - show image or looped video in center (enabled by default)
+    * Logo x - shift logo on X axis (from -1 to 1, 0 by default)
+    * Logo y - shift logo on Y axis (from -1 to 1, 0 by default)
+    * Logo rotation - rotate logo (from 0 to 1, 0 by default)
+    * Logo scale x - scale logo on X axis (from 0 to 10, 1 by default)
+    * Logo scale y - scale logo on Y axis (from 0 to 10, 1 by default)
+    * Video In - logo in video format (DXV codec is recommended)
+    * Image In - logo in still image format (gifs are not supported) 
+    If both image and video files are provided, than only video file will be shown. And if both files are empty, nothing will be shown even if "Show logo" parameter is enabled
+* Clock
+    * Show clock - enable text clock (HH:MM:SS) (24h format) on the screen (enabled by default)
+    * Clock pos y - position of clock on Y axis (from -1 to 1, -0.88 by default)
+    * Clock color - color of text (white by default)
+    * Clock scale - scale of text (from 0 to 5, 0.5 by default)
+* Resolution text
+    * Show resolution text - show text with patch resolution (Width x Height) (enabled by default)
+    * Res color - color of text (white by default)
+    * Res pos y - position of text on Y axis (from -1 to 1, 0.88 by default)
+    * Res text scale - scale of text (0.35 by default)
+* Flush
+    * Show Flush - show diagonal line that is moving from top left corner to bottom right corner and becoming transparent to the end of it (enabled by default)
+    * Flush width - width of line (from 0 to 5, 0.3 by default). When bi width is selected, visual bugs may occur
+    * Flush speed - speed of line (from 0 to 1 hz, 0.1 by default)
+
+
+> [!WARNING]  
+> In most cases background squares are not actually squares but rectangles due to rounding error and basic unavailability to create equilateral rectangles with meaningful size for most resolutions
+
+
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/ModifiableTestCard.wired)
+
+Patch info:
+* Type: Source
+* Resolution: Any resolution is supported dynamically from patch information, but recommended 512x256 or higher. (1920x1080 by default)
+* Texture Bit Depth: 8bpc
+* Minimal Version: 7.23.0
+
+Screenshots:
+
+![Preference View from Arena 1](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreferences1.png?raw=true)
+
+![Preference View from Arena 2](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreferences2.png?raw=true)
+
+![Preference View from Arena 3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreferences1.png?raw=true)
+
+![Arena Preview](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreview.png?raw=true)
 
 
 ## [GAME] Pong
