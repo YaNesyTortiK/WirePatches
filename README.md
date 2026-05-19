@@ -284,6 +284,8 @@ Source settings:
 > In most cases background squares are not actually squares but rectangles due to rounding error and basic unavailability to create equilateral rectangles with meaningful size for most resolutions
 
 
+
+
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/ModifiableTestCard.wired)
 
 Patch info:
@@ -301,6 +303,8 @@ Screenshots:
 ![Preference View from Arena 3](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreferences1.png?raw=true)
 
 ![Arena Preview](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreview.png?raw=true)
+
+![Arena Preview Logo](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreviewLogo.png?raw=true)
 
 
 ## [GAME] Pong
