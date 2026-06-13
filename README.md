@@ -317,12 +317,16 @@ Instruction:
     - Player1 - 0.5
     - Player2 - 0.5
     - Center Y = 540 px
-    - Ball speed - 30
+    - Ball speed - 0.05
+    - Computer speed - 0.015
+    - FPS - 50 (Changes speed of the game, not render frequency)
 1. Press Reset Game trigger (or else score will not count first ball).
 2. To start game - set Pause to false and ball will start moving.
 3. To control players change value in fields Player1 and Player2 (0 - bottom of the screen, 1 - top of the screen).
 4. When ball passes one of the players and touches left or right edge of the screen, point is added to opposite player and ball spawns in center and starts moving immediately.
 5. To reset score press Reset Game trigger. Both scores will be set to 0 and ball will spawn in center.
+6. To play against computer, press "Vs Computer" toggle. Then player 2 will be controlled by computer.
+7. To change speed of ball and computer depending on score, select "Score -> Speed" toggle.
 
 [>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
