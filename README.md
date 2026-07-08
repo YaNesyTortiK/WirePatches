@@ -30,6 +30,7 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE AND PROVIDED â€œAS ISâ€
 - [Lucky Wheel (Random Wheel)](#lucky-wheel-random-wheel) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/LuckyWheel.wired)
 - [Modifiable Test Card](#modifiable-test-card) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/ModifiableTestCard.wired)
 - [Overlay](#overlay) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Overlay.wired)
+- [Stinger](#stinger) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Stinger.wired)
 - [Game Pong](#game-pong) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
 # Patches Preview
@@ -354,6 +355,40 @@ Patch info:
 
 ![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Overlay/Preview.gif?raw=true)
 
+
+## Stinger
+Mixer (Transition) patch to switch between clips with a stinger. Supports image and video stingers
+
+Instruction:
+
+1. Select this patch in layer transition -> blend mode
+2. Choose your stinger type (image or video)
+3. Load stinger in corresponding field (Video should be in dxv3 codec to avoid stuttering)
+4. Change resize mode if needed (None, Fit, Fill, Stretch) 
+5. Change position, rotation and scaling in "Position" group if needed
+6. If your stinger is a video and it has no alpha, you can use auto mask effect. To use it, in "Auto Mask" group activate "Auto Mask" toggle and adjust effect settings.
+7. If your stinger is an image, you can adjust animations in "Image Animation" group
+    * Image Mixer Mode - transition effect on in and out of picture
+    * Image Stay - amount of time image will stay fully solid (value is from 0 to 1, where 0 is start of transition and 1 end of transition)
+8. Adjust "Cut Point" - position where clips are changing
+    * Value is from 0 to 1, where 0 - start of transition and 1 - end of transition
+    * If your stinger is an image it is **highly recommended** to set this value as **0.5**
+9. Adjust "Duration" - duration of transition
+    * If your stinger is a video, then it is **highly recommended** to set this value to **exact** duration of video. If duration of transition is set lower than duration of clip, then video will be sped up, and if duration is set higher, video will be slowed.
+
+! Important ! When loading and unloading images and videos, clips can flicker!
+
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Stinger.wired)
+
+Patch info:
+* Type: Mixer (also known as Blend Mode or Transition)
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+* Minimal Version: 7.23.0
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Stinger/Arena-Properties.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Stinger/Preview-Gif.gif?raw=true)
 
 ## [GAME] Pong
 Game Pong (re)created with wire just for fun.
