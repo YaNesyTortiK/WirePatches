@@ -29,6 +29,7 @@ ALL OF PATCHES LISTED IN THIS REPOSITORY ARE FREE TO USE AND PROVIDED â€œAS ISâ€
 - [Footage Looper](#footage-looper) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Footage-Looper.wired)
 - [Lucky Wheel (Random Wheel)](#lucky-wheel-random-wheel) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/LuckyWheel.wired)
 - [Modifiable Test Card](#modifiable-test-card) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/ModifiableTestCard.wired)
+- [Overlay](#overlay) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Overlay.wired)
 - [Game Pong](#game-pong) | [DOWNLOAD](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Pong.wired)
 
 # Patches Preview
@@ -305,6 +306,53 @@ Screenshots:
 ![Arena Preview](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreview.png?raw=true)
 
 ![Arena Preview Logo](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/ModifiableTestCard/ArenaPreviewLogo.png?raw=true)
+
+
+## Overlay
+Overlay effect to easily put any image or video on top of any clip
+
+Instruction:
+1. Place this effect on any clip
+2. Load image or video to corresponding inputs
+    * If you load a video, select "Video" option in "Overlay select"
+3. Adjust resizing and positions (if needed)
+    * Resize mode: None, Fit, Fill, Stretch
+    * Other options are in "Position" group
+        * X - move overlay on X axis
+        * Y - move overlay on Y axis
+        * Rotation (from 0 to 1)
+        * Scale W - scale only width of overlay
+        * Scale H - scale only height of overlay
+        * Rot Anch X - rotation anchor on X axis
+        * Rot Anch Y - rotation anchor on Y axis
+4. If you want to use animations on in and out transitions (similar to vmix overlays) open "Animation" group
+    1. Toggle "Animate" button
+    2. Adjust durations:
+        * In FX dur - duration of transition in (if set to 0, overlay will appear instantly without animation)
+        * Out FX dur - duration of transition out (if set to 0, overlay will disappear instantly)
+        * Stay Duration - duration of overlay between ending of transition in and beginning of transition out. If this option is set to 0, then overlay will stay until button "Close Overlay" is triggered.
+    3. Change transition effects (if needed)
+        * In FX type - type of transition in
+        * Out FX type - type of transition out
+5. Use Auto Mask on overlay if needed
+    * Open "Auto Mask" group and toggle "Auto Mask" option
+    * Adjust auto mask settings to your needs
+
+
+! Important !
+When new video or image is loaded into effect, clip can flicker! Change settings of this effect only in preview mode to avoid flickering in composition.
+
+[>DOWNLOAD<](https://raw.githubusercontent.com/YaNesyTortiK/WirePatches/refs/heads/main/Overlay.wired)
+
+Patch info:
+* Type: Effect
+* Resolution: 1920x1080 (1080p, Full HD)
+* Texture Bit Depth: 8bpc
+* Minimal Version: 7.23.0
+
+![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Overlay/Arena-Properties.png?raw=true)
+
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Overlay/Preview.gif?raw=true)
 
 
 ## [GAME] Pong
