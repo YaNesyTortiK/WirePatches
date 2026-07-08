@@ -388,7 +388,7 @@ Patch info:
 
 ![Preference View from Arena](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Stinger/Arena-Properties.png?raw=true)
 
-![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Stinger/Preview-Gif.gif?raw=true)
+![Preview-Gif](https://github.com/YaNesyTortiK/WirePatches/blob/main/img/Stinger/Preview.gif?raw=true)
 
 ## [GAME] Pong
 Game Pong (re)created with wire just for fun.
